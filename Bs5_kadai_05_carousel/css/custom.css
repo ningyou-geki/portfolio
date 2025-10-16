@@ -111,3 +111,25 @@ html, body{
  width: 300px;
  height: 300px;
 }
+.orange{
+	background-color: orangered;
+}
+.blue{
+	background-color: cornflowerblue;
+}
+.yello{
+	background-color: #f3f33f;
+}
+.imgkotei img {
+    width: 300px;
+    height: 400px;
+    object-fit: contain; /* ★縦横比を維持しつつ、全体を表示 */
+    display: block;       /* レイアウト崩れ防止におすすめ */
+	margin-top: 30px; 
+}
+img {
+	width: 200px;   /* 横幅を小さく */
+	height: auto;   /* 高さは自動調整（縦横比維持） */
+  }
+  
+  
